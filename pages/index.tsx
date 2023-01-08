@@ -26,7 +26,13 @@ function Home() {
         Click to fetch data <FaRegSmile size={30} className="ml-2" />
       </button>
 
-      <p>{error ? "Errorrrr!" : exampleResp ? exampleResp.name : ""}</p>
+      <h1>
+        {error
+          ? "Errorrrr!"
+          : exampleResp?.name
+          ? `Name: ${exampleResp.name}`
+          : ""}
+      </h1>
     </>
   );
 }
