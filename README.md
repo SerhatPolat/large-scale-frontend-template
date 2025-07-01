@@ -6,7 +6,7 @@ This template includes:
 
 * Modern approaches and technologies (Next.js, TypeScript, Yarn, Eslint, Storybook, Cypress, TailwindCSS, Redux Toolkit, Axios, React Icons, etc.)
 
-* Fully maintainable, scalable component structure with best practices to improve performance (with better hydration)
+* Fully maintainable and scalable component structure with best practices to improve performance (with better hydration)
 
 * Global state management structure to handle dataflows with more systematic and efficient way
 
